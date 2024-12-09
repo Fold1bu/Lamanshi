@@ -1,0 +1,86 @@
+.footer {
+    background-color: #B3B3B3;
+    height: 316px;
+    width: 100%;
+
+    padding: 86px 120px 120px 120px;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.footer__logo {
+    margin-bottom: 28px;
+}
+
+.disc__text-footer {
+    margin-bottom: 28px;
+}
+
+.politic {
+    border-bottom: 1px solid #848484;
+    width: 100px;
+    padding-bottom: 10px;
+}
+
+
+.about__footer {
+    
+}
+
+.footer__phone {
+    font-size: 20px;
+}
+
+
+.footer__phone,
+.footer__email {
+    display: block; /* Убираем горизонтальное выравнивание */
+    margin: 22px 0; /* Отступы между элементами */
+    
+}
+
+.link__footer {
+    margin: 10px 0; /* Отступы между списком и другими элементами */
+}
+
+.link__footer li {
+    display: inline; /* Если хотите маркеры в строку, вы можете использовать inline или inline-block */
+    margin-right: 10px; /* Отступ между иконками */
+}
+
+.link__footer img {
+    width: 33px; /* Задайте собственные размеры для иконок */
+    height: 33px; /* Задайте собственные размеры для иконок */
+}
+
+
+
+.title__form-footer {
+    margin-bottom: 32px;
+    font-size: 20px;
+}
+
+.input__group-footer {
+    display: flex; /* Используем Flexbox для размещения элементов в строку */
+    align-items: center; /* Центрируем элементы по вертикали */
+    border-bottom: 1px solid #A7A7A7;
+
+    height: 43px;
+}
+
+.input__group-footer input {
+    flex: 1; /* Позволяем полю занимать доступное пространство */
+}
+
+.input__group-footer button {
+    cursor: pointer; /* Изменяем курсор на указатель */
+
+    border: none;
+}
+

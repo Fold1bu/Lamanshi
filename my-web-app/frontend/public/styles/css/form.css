@@ -1,0 +1,89 @@
+.sign__form .container{
+    display: flex;
+    gap: 45px;
+}
+
+.sign__form  {
+    margin-bottom: 90px;
+}
+
+
+.form__title {
+    margin-bottom: 90px;
+    
+    width: 555px;
+    height: 90px;
+
+    font-size: 34px;
+}
+
+.form__title span {
+    color: #9B8C7C;
+}
+
+
+
+.sign__form form {
+    max-width: 430px; /* Максимальная ширина формы */
+}
+
+.sign__form input[type="text"],
+input[type="number"],
+select,
+.form__btn {
+    width: 100%; /* Полная ширина элемента */
+    margin: 24px 0; /* Отступы между элементами */
+    border-bottom: 1px solid #808080; /* Цвет и стиль рамки */
+}
+
+
+
+.sign__form input[type="date"], select {
+    margin: 10px 0; /* Отступы между элементами */
+    border: 1px solid #808080; /* Цвет и стиль рамки */
+
+    width: 161px;
+    height: 40px;
+    
+    padding: 7px 0 7px 26px;
+
+    font-size: 17px;
+
+    color: #808080;
+}
+
+.sign__form input[type="number"] {
+    margin-bottom: 50px;
+}
+
+
+.sign__form button {
+    display: flex;
+    justify-content: center;
+    padding: 11px 113px;
+    background-color: #9B8C7C;
+    color: white; 
+    cursor: pointer;
+
+    width: 264px;
+    height: 44px;
+
+    transition: background_color 0.3s ease;
+}
+
+.sign__form button:hover {
+    background-color: #706558; /* Цвет кнопки при наведении */
+}
+
+.input__group {
+    display: flex; /* Используем Flexbox для отображения полей вместе */
+    justify-content: space-between; /* Разделяем пространство между элементами */
+    gap:110px;
+
+    margin-bottom: 80px;
+}
+
+.input__group input[type="date"],
+.input__group select {
+    width: calc(50% - 10px); /* Задаем ширину для каждого элемента в группе */
+}

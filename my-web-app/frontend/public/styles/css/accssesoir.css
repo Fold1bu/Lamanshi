@@ -1,0 +1,51 @@
+.Accessories {
+    margin-bottom: 90px;
+}
+
+.Accessories .container {
+    display: flex;
+    justify-content: center;
+    
+    gap: 50px;
+}
+
+
+.acs__title {
+    width: 350px;
+    height: 140px;
+
+    font-size: 35px;
+
+    margin-bottom: 70px;
+}
+
+.disc__text {
+
+    font-size: 18px;
+
+    margin-bottom: 40px;
+}
+
+.right__acs-wrapper {
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+
+    gap: 35px;
+}
+
+.acs__cart-img {
+    margin-bottom: 7px;
+}
+
+.acs__cart-title {
+    margin-bottom: 7px;
+
+    font-weight: 600;
+
+}
+
+.acs__cart-price {
+    color: #767575;
+
+}

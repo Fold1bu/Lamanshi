@@ -1,0 +1,61 @@
+.main__section {
+    background-image: url(../../../image/main/header-image.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    
+    padding: 120px 0;
+    margin-top: -100px;
+    margin-bottom: 90px;
+
+    color: #fff;
+}
+
+.main__text {
+    margin-top: 246px;
+
+    font-size: 40px;
+    max-width: 500px;
+
+    margin-bottom: 40px;
+}
+
+.disc__main {
+    font-size: 20px;
+    max-width: 430px;
+
+    margin-bottom: 40px;
+}
+
+
+.btn__main {
+    max-width: 206px;
+    max-height: 52px;
+    background-color: #F0F0F0;
+    
+    padding: 10px 56px; /* Измените отступы для более правильного выравнивания */
+    border-radius: 5px; /* Закругление углов */
+    display: flex; /* Используйте flex для центровки содержимого */
+    align-items: center; /* Вертикальное центрирование */
+    justify-content: center; /* Горизонтальное центрирование */
+
+    transition: background-color 0.3s, color 0.3s ease-out;
+}
+
+.btn__main:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn__main-link {
+    text-decoration: none; /* Убираем подчеркивание */
+    display: block; /* Делает область кликабельной */
+    font-size: 19px;
+    line-height: 52px; /* Установка line-height равным высоте кнопки */
+    color: #000; /* Укажите цвет текста при необходимости */
+}
+
+
+

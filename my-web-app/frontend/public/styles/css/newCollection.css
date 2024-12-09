@@ -1,0 +1,101 @@
+.colletcion {
+
+}
+
+.collection__text {
+    text-align: center;
+
+    margin-bottom: 60px;
+}
+
+.new__collection {
+    
+}
+
+.new__collection-img {
+    margin-bottom: 70px;
+
+    display: flex;
+    justify-content:space-between;
+}
+
+.collection__image {
+
+}
+
+.main__img {
+    position: relative;
+
+    left: 400px;
+}
+
+.img {
+    position: absolute;
+
+    max-width: 268px;
+    max-height: 355px;
+}
+
+.img__left {
+    position: absolute;
+
+    left: 1330px
+}
+
+
+.photo-container {
+    position: relative; /* Позволяет использовать абсолютное позиционирование внутри */
+    width: 100%; /* Устанавливаем ширину контейнера */
+    height: 400px; /* Высота контейнера (можно изменить в зависимости от дизайна) */
+    overflow: hidden; /* Скрываем элементы, выходящие за пределы контейнера */
+
+    margin-bottom: 70px;
+}
+
+.corner-photo {
+    position: absolute; /* Позволяет позиционировать по углам */
+    width: 268px; /* Ширина боковых фото (можно изменить) */
+    height: 355px; /* Автоматическая высота для сохранения соотношения */
+}
+
+.left {
+    bottom: 30px; /* Отступ снизу */
+    right: 20px; /* Отступ справа */
+}
+
+.right {
+    top: 30px; /* Отступ сверху */
+    left: 20px; /* Отступ слева */
+}
+
+.center-photo {
+    position: absolute; /* Позволяет центровать по координатам */
+    top: 50%; /* Центрируем по вертикали */
+    left: 50%; /* Центрируем по горизонтали */
+    transform: translate(-50%, -50%); /* Сдвигаем для правильного центрирования */
+    width: 300px; /* Ширина центральной фотографии (можно изменить) */
+    height: auto; /* Автоматическая высота для сохранения соотношения */
+}
+
+.new__collection-btn {
+    text-align: center;
+
+    margin-bottom: 90px;
+}
+
+.btn {
+    background-color: #9B8C7C; /* Цвет фона кнопки (можно изменить) */
+    color: white; /* Цвет текста */
+    border-radius: 5px; /* Закругление углов */
+    cursor: pointer; /* Изменяем курсор на указатель */
+
+    max-width: 200px;
+    height: 50px;
+    padding: 12px 22px;
+
+    transition: background-color 0.2s ease-in;
+}
+
+.btn:hover {
+    background-color:#837668;
+}

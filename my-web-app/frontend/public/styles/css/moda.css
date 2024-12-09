@@ -1,0 +1,38 @@
+.moda {
+    margin-bottom: 90px;
+}
+
+.text__moda {
+    text-align: center;
+
+    margin-bottom: 70px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.wrapper-cart {
+    max-width: 273px;
+    max-height: 417px;
+}
+
+.wraper-img__cart {
+    margin-bottom: 14px;
+}
+
+
+.wrapper-cart__title {
+    margin-bottom: 7px;
+
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.wrapper-price__cart {
+    color: #767575
+}

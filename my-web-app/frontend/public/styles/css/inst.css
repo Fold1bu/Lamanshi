@@ -1,0 +1,18 @@
+
+.instagram {
+    margin-bottom: 90px;
+}
+
+.text__inst {
+    text-align: center;
+}
+
+.disc__inst {
+    color: #5C5C5C;
+}
+
+.wrapper_img-inst {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
